@@ -1,0 +1,11 @@
+{
+  "appId": "pt.vault.collection",
+  "appName": "Vault",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "backgroundColor": "#0b0714"
+  }
+}

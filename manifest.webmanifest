@@ -1,0 +1,17 @@
+{
+  "name": "Vault — Game Collection",
+  "short_name": "Vault",
+  "description": "Your personal archive of video games, achievements, and treasures.",
+  "id": "/",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0b0714",
+  "theme_color": "#0b0714",
+  "lang": "pt-PT",
+  "categories": ["games", "lifestyle", "utilities"],
+  "icons": [
+    {"src":"assets/vault-icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}

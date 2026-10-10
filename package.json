@@ -1,0 +1,28 @@
+{
+  "name": "vault-game-collection",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gestor retro de coleções de videojogos para web e Android",
+  "scripts": {
+    "serve": "node server/index.js",
+    "test": "node --test tests/*.test.js",
+    "dev": "npm run build && concurrently \"node --watch server/index.js\" \"serve . -l 4173\"",
+    "build": "mkdir -p www/assets www/downloads && cp index.html styles.css retro.css landing.css app.js config.js manifest.webmanifest service-worker.js robots.txt sitemap.xml www/ && cp assets/vault-icon.svg www/assets/",
+    "android:add": "cap add android",
+    "android:sync": "npm run build && find www/downloads -type f -name '*.apk' -delete && find android/app/src/main/assets/public/downloads -type f -name '*.apk' -delete 2>/dev/null || true; cap sync android",
+    "android:open": "cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.0.0",
+    "concurrently": "^10.0.3",
+    "serve": "^14.2.4"
+  }
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vault-exe.com/sitemap.xml

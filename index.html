@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Vault organiza, avalia e sincroniza todas as tuas coleções entre web e Android." />
+    <meta property="og:title" content="VAULT.EXE — Your gaming collection, synced" />
+    <meta property="og:description" content="Organize, value, and sync your video game collection across web and Android." />
+    <meta property="og:url" content="https://vault-exe.com/" />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#0b0714" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" href="assets/vault-icon.svg" type="image/svg+xml" />
+    <link rel="canonical" href="https://vault-exe.com/" />
+    <title>Vault — Your collection, always with you</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="retro.css" />
+    <link rel="stylesheet" href="landing.css" />
+  </head>
+  <body>
+    <div class="landing" id="landing">
+      <nav class="landing-nav" aria-label="Website navigation">
+        <a class="landing-brand" href="#top" aria-label="Vault — home"><span class="brand-mark">V</span><span>VAULT<small>.EXE</small></span></a>
+        <div class="landing-links"><a href="#features">Features</a><a href="#sync">Sync</a><a href="#price">Pricing</a></div>
+        <button class="landing-login" data-launch="login">Open web app <span>↗</span></button>
+      </nav>
+
+      <main class="landing-main" id="top">
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="hero-kicker"><i></i> TODAS AS TUAS COLEÇÕES. SEMPRE CONTIGO.</p>
+            <h1>ORGANIZA O TEU<br /><em>UNIVERSO GEEK.</em></h1>
+            <p class="hero-intro">Cataloga jogos, BD, cartas, Pops, figuras e qualquer outra coleção. Acompanha o seu valor e sincroniza tudo entre web e Android.</p>
+            <div class="hero-actions">
+              <button class="hero-primary" data-launch="register">Começar na web <span>→</span></button>
+              <a class="hero-secondary" href="#price"><span class="android-mark">A</span><span><small>ANDROID APP</small>Available for €1.99</span></a>
+            </div>
+            <p class="hero-note"><span>✓</span> Free web app &nbsp;·&nbsp; <span>✓</span> Cloud save &nbsp;·&nbsp; <span>✓</span> Works offline</p>
+          </div>
+          <div class="hero-product" aria-label="Vault dashboard preview">
+            <div class="product-glow"></div>
+            <div class="mini-window">
+              <div class="mini-bar"><span class="mini-logo">V</span><b>VAULT</b><i></i><i></i><i></i></div>
+              <div class="mini-body">
+                <div class="mini-side"><b>⌂</b><span>▦</span><span>♡</span><span class="mini-avatar">P1</span></div>
+                <div class="mini-content">
+                  <p>PLAYER 1, READY!</p><h2>Your collection</h2>
+                  <div class="mini-stats"><article><small>ESTIMATED VALUE</small><strong>€300.50</strong><span>↗ 43.5%</span></article><article><small>GAMES</small><strong>6</strong><span>5 platforms</span></article><article><small>INVESTED</small><strong>€209.38</strong><span>avg. €34.90</span></article></div>
+                  <div class="mini-shelf"><article><span>Z</span><b>Zelda TOTK</b><small>Nintendo Switch</small></article><article><span>P</span><b>Pokémon HeartGold</b><small>Nintendo DS</small></article><article><span>M</span><b>Metroid Prime</b><small>GameCube</small></article></div>
+                </div>
+              </div>
+            </div>
+            <div class="sync-chip"><span>↻</span><b>Synced</b><small>Just now</small></div>
+          </div>
+        </section>
+
+        <section class="trust-strip"><span>ONE COLLECTION ON EVERY SCREEN</span><b>WEB</b><i>＋</i><b>ANDROID</b><i>＋</i><b class="muted-platform">iOS <small>COMING SOON</small></b></section>
+
+        <section class="feature-section" id="features">
+          <div class="section-heading"><p>POWER-UPS FOR COLLECTORS</p><h2>EVERYTHING YOU NEED.<br /><em>NOTHING YOU DON'T.</em></h2></div>
+          <div class="feature-grid">
+            <article class="feature-large"><span class="feature-icon">▦</span><p>YOUR ARCHIVE</p><h3>Every game, safely stored.</h3><p>Record platform, condition, format, region, price paid, and current value. Search and filter your collection in seconds.</p><div class="game-row"><i>Z</i><span><b>Zelda: Tears of the Kingdom</b><small>Nintendo Switch · Like new</small></span><strong>€49.50</strong></div><div class="game-row"><i>P</i><span><b>Pokémon HeartGold</b><small>Nintendo DS · Very good</small></span><strong>€112.00</strong></div></article>
+            <article><span class="feature-icon violet">↗</span><p>COLLECTION VALUE</p><h3>Know what it's worth.</h3><p>Compare your investment and estimated value. See your total gain at a glance.</p><div class="value-demo"><strong>+€91.12</strong><span>↗ 43.5% increase</span></div></article>
+            <article id="sync"><span class="feature-icon amber">↻</span><p>CLOUD SAVE</p><h3>Continue where you left off.</h3><p>One account connects your collection across browser and Android. Offline changes sync when you're back online.</p><div class="device-line"><span>WEB</span><i></i><b>✓</b><i></i><span>ANDROID</span></div></article>
+          </div>
+        </section>
+
+        <section class="price-section" id="price">
+          <div><p class="hero-kicker"><i></i> CHOOSE WHERE YOU PLAY</p><h2>THE WEB IS YOURS.<br />TAKE IT IN YOUR <em>POCKET.</em></h2><p>Build your collection in the browser. When you want Vault everywhere, install the Android app.</p></div>
+          <div class="price-card"><span class="price-badge">ANDROID TEST</span><div class="price"><strong>FREE</strong><small>EARLY TEST BUILD</small></div><ul><li>✓ Complete Android app</li><li>✓ Sync with the web</li><li>✓ Offline access and editing</li><li>✓ Updates included</li></ul><a class="android-download" id="androidButton" href="downloads/VAULT-EXE-android-test.apk" download>Download test APK <span>↓</span></a><p>Test build for Android 6.0 or newer.</p></div>
+        </section>
+      </main>
+      <footer class="landing-footer"><a class="landing-brand" href="#top"><span class="brand-mark">V</span><span>VAULT</span></a><p>BUILT FOR THOSE WHO COLLECT MORE THAN GAMES.</p><span>© 2026 VAULT</span></footer>
+    </div>
+
+    <div class="app-shell" id="appShell" hidden>
+      <aside class="sidebar">
+        <a class="brand" href="#" aria-label="Vault — home">
+          <span class="brand-mark">V</span>
+          <span>VAULT<span class="brand-extension">.EXE</span></span>
+        </a>
+
+        <nav class="nav" aria-label="Main navigation">
+          <button class="nav-item active" data-view="dashboard">
+            <span class="nav-icon">⌂</span> Overview
+          </button>
+          <button class="nav-item" data-view="collection">
+            <span class="nav-icon">▦</span> My collection
+            <span class="nav-count" id="navCount">0</span>
+          </button>
+          <button class="nav-item" data-view="wishlist">
+            <span class="nav-icon">♡</span> Wishlist
+          </button>
+        </nav>
+
+        <div class="sidebar-card">
+          <span class="sidebar-card-icon">✦</span>
+          <strong>MEMORY CARD</strong>
+          <p>✓ Collection saved on this device.</p>
+        </div>
+
+        <div class="profile">
+          <span class="avatar" id="profileAvatar">TC</span>
+          <span><strong id="profileName">Offline mode</strong><small id="profileStatus">On this device</small></span>
+          <button id="accountButton" aria-label="Manage account">•••</button>
+        </div>
+      </aside>
+
+      <main>
+        <header class="topbar">
+          <button class="mobile-menu" id="mobileMenu" aria-label="Open menu">☰</button>
+          <div class="search-wrap">
+            <span>⌕</span>
+            <input id="globalSearch" type="search" placeholder="Search your collection..." />
+            <kbd>⌘ K</kbd>
+          </div>
+          <button class="icon-button" aria-label="Notifications">♢<span class="notification-dot"></span></button>
+          <button class="primary-button" id="addItemTop"><span>＋</span> Adicionar item</button>
+        </header>
+
+        <section class="view active" id="dashboardView">
+          <div class="page-heading">
+            <div>
+              <p class="eyebrow" id="todayLabel">YOUR COLLECTION</p>
+              <h1>PLAYER 1, <em>READY!</em></h1>
+              <p>O teu arquivo de jogos, BD, cartas, figuras e tesouros.</p>
+            </div>
+            <button class="ghost-button" id="exportButton">⇩ Export CSV</button>
+          </div>
+
+          <div class="stats-grid">
+            <article class="stat-card featured">
+              <div class="stat-label"><span class="stat-icon">€</span> Estimated value</div>
+              <div class="stat-value" id="totalValue">€0</div>
+              <div class="stat-footer"><span class="trend positive" id="gainBadge">↗ 0%</span><span>vs. investment</span></div>
+              <div class="sparkline" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+            </article>
+            <article class="stat-card">
+              <div class="stat-label"><span class="stat-icon violet">▦</span> Itens na coleção</div>
+              <div class="stat-value" id="totalItems">0</div>
+              <div class="stat-footer"><span class="trend neutral" id="categoryCount">0 categorias</span></div>
+            </article>
+            <article class="stat-card">
+              <div class="stat-label"><span class="stat-icon amber">◎</span> Total invested</div>
+              <div class="stat-value" id="totalInvested">€0</div>
+              <div class="stat-footer"><span id="averagePaid">Average €0 / game</span></div>
+            </article>
+            <article class="stat-card">
+              <div class="stat-label"><span class="stat-icon coral">↗</span> Value increase</div>
+              <div class="stat-value" id="totalGain">€0</div>
+              <div class="stat-footer"><span class="trend positive">Potential value</span></div>
+            </article>
+          </div>
+
+          <div class="dashboard-grid">
+            <article class="panel collection-panel">
+              <div class="panel-header">
+                <div><p class="eyebrow">DESTAQUES</p><h2>Tesouros da coleção</h2></div>
+                <button class="text-button" data-go="collection">View collection →</button>
+              </div>
+              <div class="game-highlights" id="itemHighlights"></div>
+            </article>
+
+            <article class="panel distribution-panel">
+              <div class="panel-header"><div><p class="eyebrow">DISTRIBUIÇÃO</p><h2>Por categoria</h2></div></div>
+              <div class="donut-wrap">
+                <div class="donut" id="categoryDonut"><span id="donutTotal">0<small>ITENS</small></span></div>
+                <div class="legend" id="categoryLegend"></div>
+              </div>
+            </article>
+          </div>
+
+          <article class="panel recent-panel">
+            <div class="panel-header">
+              <div><p class="eyebrow">RECENT ACTIVITY</p><h2>Latest additions</h2></div>
+              <button class="text-button" data-go="collection">View all →</button>
+            </div>
+            <div class="table-wrap"><table><thead><tr><th>Item</th><th>Categoria</th><th>Estado</th><th>Preço pago</th><th>Valor atual</th><th></th></tr></thead><tbody id="recentTable"></tbody></table></div>
+          </article>
+        </section>
+
+        <section class="view" id="collectionView">
+          <div class="page-heading compact">
+            <div><p class="eyebrow">O TEU ARQUIVO</p><h1>As minhas <em>coleções.</em></h1><p id="collectionSubtitle"></p></div>
+            <div class="heading-actions"><button class="ghost-button" id="manageCategories">Categorias</button><button class="primary-button" id="addItemCollection"><span>＋</span> Adicionar item</button></div>
+          </div>
+          <div class="collection-tools">
+            <div class="filter-search"><span>⌕</span><input id="collectionSearch" type="search" placeholder="Pesquisar título, série, marca..." /></div>
+            <select id="categoryFilter"><option value="all">Todas as categorias</option></select>
+            <select id="conditionFilter"><option value="all">Todos os estados</option><option>Novo/Selado</option><option>Como novo</option><option>Muito bom</option><option>Bom</option><option>Razoável</option></select>
+            <span class="result-count" id="resultCount"></span>
+          </div>
+          <div class="collection-grid" id="collectionGrid"></div>
+          <div class="empty-state" id="emptyState"><span>◇</span><h2>A coleção está vazia</h2><p>Adiciona o primeiro item para começar o teu arquivo.</p><button class="primary-button" id="emptyAdd">Adicionar primeiro item</button></div>
+        </section>
+
+        <section class="view" id="wishlistView">
+          <div class="page-heading compact"><div><p class="eyebrow">PRÓXIMAS CONQUISTAS</p><h1>A minha <em>wishlist.</em></h1><p>Itens que estás à procura, em todas as categorias.</p></div><button class="primary-button" id="addWishlist"><span>＋</span> Adicionar desejo</button></div>
+          <div class="collection-grid" id="wishlistGrid"></div>
+          <div class="empty-state" id="wishlistEmpty"><span>♡</span><h2>A wishlist está vazia</h2><p>Guarda aqui o próximo item que queres encontrar.</p></div>
+        </section>
+      </main>
+    </div>
+
+    <div class="modal-backdrop" id="itemModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal">
+        <div class="modal-header"><div><p class="eyebrow">NEW ENTRY</p><h2 id="modalTitle">Add to collection</h2></div><button class="modal-close" id="modalClose" aria-label="Close">×</button></div>
+        <form id="itemForm">
+          <input type="hidden" id="itemId" />
+          <div class="form-grid">
+            <label>Categoria<select id="categoryId" required></select></label>
+            <label>Estado na Vault<select id="status"><option value="owned">Na coleção</option><option value="wishlist">Wishlist</option><option value="sold">Vendido/Trocado</option></select></label>
+            <label class="full">Nome / título<input id="title" required maxlength="240" placeholder="Ex. Batman #1, Charizard, Sonic 2..." /></label>
+            <label id="platformField">Plataforma / sistema<input id="platform" list="platforms" placeholder="Ex. Sega Mega Drive" /></label>
+            <datalist id="platforms">
+              <option>Sega Mega Drive</option>
+              <option>Sega CD</option>
+              <option>Sega Saturn</option>
+              <option>Sega Master System</option>
+              <option>PlayStation 1</option>
+              <option>PlayStation 2</option>
+              <option>PlayStation 3</option>
+              <option>PlayStation 4</option>
+              <option>PlayStation 5</option>
+              <option>Nintendo NES</option>
+              <option>Super Nintendo</option>
+              <option>Nintendo Switch</option>
+              <option>Xbox One</option>
+              <option>Xbox 360</option>
+              <option>Xbox Series X</option>
+              <option>Game Boy</option>
+              <option>PC</option>
+            </datalist>
+            <label>Série / coleção<input id="series" maxlength="160" placeholder="Ex. Marvel, Pokémon Base Set" /></label>
+            <label>Marca / editora<input id="brand" maxlength="120" placeholder="Ex. Funko, Panini, Devir" /></label>
+            <label>Número / referência<input id="reference" maxlength="100" placeholder="Ex. #01, 4/102, POP 725" /></label>
+            <label>Condição<select id="condition"><option>Novo/Selado</option><option>Como novo</option><option selected>Muito bom</option><option>Bom</option><option>Razoável</option></select></label>
+            <label>Formato / completude<input id="completeness" maxlength="80" placeholder="Ex. Completo, loose, graded" /></label>
+            <label>Região / idioma<input id="region" maxlength="60" placeholder="Ex. PAL, PT, EN" /></label>
+            <label>Quantidade<input id="quantity" type="number" min="1" max="99999" value="1" /></label>
+            <label>Código de barras<input id="barcode" inputmode="numeric" maxlength="80" placeholder="EAN / UPC" /></label>
+            <label>Preço pago (€)<input id="paid" required type="number" min="0" step="0.01" value="0" /></label>
+            <label>Valor atual (€)<input id="value" required type="number" min="0" step="0.01" value="0" /></label>
+            <label class="full">Imagem / capa <span class="optional">(URL opcional)</span><input id="cover" type="url" maxlength="2000" placeholder="https://..." /></label>
+            <label class="full">Notas<textarea id="notes" rows="3" maxlength="4000" placeholder="Edição, variante, assinatura, localização, observações..."></textarea></label>
+          </div>
+          <div class="form-actions"><button type="button" class="ghost-button" id="cancelButton">Cancelar</button><button type="submit" class="primary-button">Guardar item</button></div>
+        </form>
+      </div>
+    </div>
+
+    <div class="modal-backdrop" id="categoryModal" role="dialog" aria-modal="true" aria-labelledby="categoryModalTitle">
+      <div class="modal category-modal">
+        <div class="modal-header"><div><p class="eyebrow">ORGANIZAR</p><h2 id="categoryModalTitle">Categorias</h2></div><button class="modal-close" id="categoryModalClose" aria-label="Fechar">×</button></div>
+        <div class="category-manager" id="categoryManagerList"></div>
+        <form id="categoryForm" class="category-form"><label>Ícone<input id="categoryIcon" maxlength="8" value="◇" /></label><label>Nova categoria<input id="categoryName" required maxlength="60" placeholder="Ex. LEGO, moedas, vinil..." /></label><label>Cor<input id="categoryColor" type="color" value="#5df2c2" /></label><button class="primary-button" type="submit">Criar categoria</button></form>
+      </div>
+    </div>
+
+    <div class="auth-screen" id="authScreen" role="dialog" aria-modal="true" aria-labelledby="authTitle">
+      <div class="auth-card">
+        <div class="auth-logo"><span class="brand-mark">V</span><span>VAULT<small>.ONLINE</small></span></div>
+        <p class="eyebrow">CLOUD SAVE</p>
+        <h2 id="authTitle">SIGN IN TO VAULT</h2>
+        <p class="auth-intro">Sync your collection across the web and Android app.</p>
+        <form id="authForm">
+          <label class="register-only">Player name<input id="authName" autocomplete="name" placeholder="Your name" /></label>
+          <label>Email<input id="authEmail" type="email" autocomplete="email" required placeholder="jogador@email.com" /></label>
+          <label>Password<input id="authPassword" type="password" autocomplete="current-password" required minlength="8" placeholder="At least 8 characters" /></label>
+          <p class="auth-error" id="authError"></p>
+          <button class="primary-button auth-submit" type="submit">Sign in</button>
+        </form>
+        <button class="text-button auth-switch" id="authSwitch">New to Vault? Create an account</button>
+        <button class="offline-button" id="offlineButton">Continue in offline mode</button>
+      </div>
+    </div>
+
+    <div class="toast" id="toast" role="status"></div>
+    <script src="config.js"></script>
+    <script src="app.js?v=2.0"></script>
+    <script>
+      if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('./service-worker.js'));
+    </script>
+  </body>
+</html>

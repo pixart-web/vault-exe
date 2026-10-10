@@ -1,0 +1,16 @@
+node_modules/
+www/
+android/.gradle/
+android/local.properties
+android/app/build/
+.DS_Store
+.env
+prisma/dev.db
+prisma/dev.db-journal
+data/*.db
+data/*.db-shm
+data/*.db-wal
+output/
+deploy/
+tmp/
+*.apk
